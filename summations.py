@@ -97,7 +97,6 @@ def get_coefficients(k):
 
 
 def generate_polynomial(coefficients):
-  print(coefficients)
   polynomial = []
   for i in range(len(coefficients)):
     j = len(coefficients) - i - 1
